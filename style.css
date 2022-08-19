@@ -1,0 +1,116 @@
+/*............small screens...........*/
+@media only screen and (min-width: 360px) and (max-width: 600px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+    
+  }
+
+  #container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    background-image: url("h.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-rows: 2 6fr 2fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "hd"
+      "mn"
+      "ft";
+  }
+
+  /*------header------*/
+  #hd {
+    grid-area: hd;
+  }
+
+  /*-------main------*/
+  #mn {
+    grid-area: mn;
+  }
+
+  /*-------footer-------*/
+  #ft {
+    grid-area: ft;
+  }
+}
+
+/*............medium screens...........*/
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+    
+  }
+
+  #container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    background-image: url("h.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-rows: 2fr 6fr 2fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "hd"
+      "mn"
+      "ft";
+  }
+
+  /*------header------*/
+  #hd {
+    grid-area: hd;
+  }
+
+  /*-------main------*/
+  #mn {
+    grid-area: mn;
+  }
+
+  /*-------footer-------*/
+  #ft {
+    grid-area: ft;
+  }
+}
+
+/*............large screens...........*/
+@media only screen and (min-width: 801px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+    
+  }
+
+  #container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    background-image: url("h.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-rows: 2fr 6fr 2fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "hd"
+      "mn"
+      "ft";
+  }
+
+  /*------header------*/
+  #hd {
+    grid-area: hd;
+  }
+
+  /*-------main------*/
+  #mn {
+    grid-area: mn;
+  }
+
+  /*-------footer-------*/
+  #ft {
+    grid-area: ft;
+  }
+}
